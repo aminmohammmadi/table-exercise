@@ -1,9 +1,15 @@
-#table, tr , td{
+#table, th {
+    border: 1px solid green;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#table, td{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+table {
     border: 1px solid black;
 }
 
-#table, th {
-    border: 1px solid red;
-    text-align: center;
-    border-radius: 5px;
-}
